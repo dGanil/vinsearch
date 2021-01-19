@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<!-- HEAD -->
+
+<head>
+	<!-- META -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- META -->
+
+	<!-- TITLE -->
+	<title>VINsearcher</title>
+	<!-- TITLE -->
+
+	<!-- STYLES -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.min.css">
+	<!-- STYLES -->
+</head>
+<!-- HEAD -->
+
+<!-- BODY -->
+
+<body>
+	<div class="page">
+		<!-- HEADER -->
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header__inner">
+					<input type="text" placeholder="Поиск" class="header__search">
+					<div class="header__wrap">
+						<a class="header__logo" href="#">
+							Vin
+						</a>
+					</div>
+					<nav class="header__functions">
+						<div class="nav__item">
+							<a href="#">
+								<img class="nav__icon" src="img/account.png" alt="">
+								<p class="nav__text">Аккаунт</p>
+							</a>
+						</div>
+						<div class="nav__item">
+							<a href="#">
+								<img class="nav__icon nav__icon_basket" src="img/basket.png" alt="">
+								<p class="nav__text">Корзина</p>
+							</a>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- HEADER -->
+
+		<!-- MAIN -->
+		<main class="content">
+			<div class="backet">
+				<div class="container">
+					<div class="basket__inner">
+						<table class="table">
+							<thead class="thead">
+								<tr>
+									<th class="th td td__image">
+									</th>
+									<th class="th td td__detail">Деталь</th>
+									<th class="th td td__work">Работа</th>
+									<th class="th td td__delete"></th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr class="tr-body">
+									<td class="td td__image">
+										<img src="img/detail.png" alt="" class="table__image">
+									</td>
+									<td class="td__detail td td__detail_main">
+										<div class="table__wrap">
+											Ремкомплект ГРМ, SKF, VKMA02179
+										</div>
+									</td>
+									<td class="td td__work">
+										<select class="work-list" id="">
+											<option value="">Установка</option>
+										</select>
+									</td>
+									<td class="td td__delete">
+										<button class="table__btn">
+											Удалить
+										</button>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+						<div class="table__function">
+							<button class="btn sign__btn login-btn save">Сделать заказ</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- MAIN -->
+
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__iner">
+					<div class="footer__caption">
+						Здесь вы можете подобрать детали для своего авто
+					</div>
+				</div><!-- /.footer__iner -->
+			</div><!-- /.container -->
+		</footer>
+		<!-- FOOTER -->
+
+	</div><!-- /.page -->
+	<!-- SCRIPTS -->
+	<!-- <script src="js/libs.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+		integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+		crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+<!-- BODY -->
+
+</html>

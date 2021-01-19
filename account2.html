@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<!-- HEAD -->
+
+<head>
+	<!-- META -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- META -->
+
+	<!-- TITLE -->
+	<title>VINsearcher</title>
+	<!-- TITLE -->
+
+	<!-- STYLES -->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.min.css">
+	<!-- STYLES -->
+</head>
+<!-- HEAD -->
+
+<!-- BODY -->
+
+<body>
+	<div class="page">
+		<!-- HEADER -->
+		<header class="header" id="header">
+			<div class="container">
+				<div class="header__inner">
+					<input type="text" placeholder="Поиск" class="header__search">
+					<div class="header__wrap">
+						<a class="header__logo" href="#">
+							Vin
+						</a>
+					</div>
+					<nav class="header__functions">
+						<div class="nav__item">
+							<a href="#">
+								<img class="nav__icon" src="img/account.png" alt="">
+								<p class="nav__text">Аккаунт</p>
+							</a>
+						</div>
+						<div class="nav__item">
+							<a href="#">
+								<img class="nav__icon nav__icon_basket" src="img/basket.png" alt="">
+								<p class="nav__text">Корзина</p>
+							</a>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!-- HEADER -->
+
+		<!-- MAIN -->
+		<main class="content">
+			<div class="account">
+				<div class="container">
+					<div class="account__inner">
+						<div class="account__tabs">
+							<div class="account__tab account__tab_active">
+								Профиль
+							</div>
+							<a href="#">
+								<div class="account__tab logout">
+									Выйти
+								</div>
+							</a>
+						</div>
+						<form action="" class="sign account__sign">
+							<h2 class="sign__title title">Ваши данные</h2>
+							<div class="sign__group">
+								<label for="3" class="sign__label">E-mail</label>
+								<input type="email" id="3" class="sign__field" placeholder="email@example.ru">
+							</div>
+							<div class="sign__group">
+								<label for="5" class="sign__label">Имя</label>
+								<input type="name" id="5" class="sign__field" placeholder="">
+							</div>
+							<div class="sign__group repeat-group">
+								<div class="repeat">
+									<label for="4" class="sign__label">Новый пароль</label>
+									<input type="password" id="4" class="sign__field" placeholder="">
+								</div>
+								<div class="repeat">
+									<label for="6" class="sign__label">Ещё раз</label>
+									<input type="password" id="6" class="sign__field" placeholder="">
+								</div>
+
+							</div>
+							<button class="btn sign__btn login-btn">Сохранить</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</main>
+		<!-- MAIN -->
+
+		<!-- FOOTER -->
+		<footer class="footer">
+			<div class="container">
+				<div class="footer__iner">
+					<div class="footer__caption">
+						Здесь вы можете подобрать детали для своего авто
+					</div>
+				</div><!-- /.footer__iner -->
+			</div><!-- /.container -->
+		</footer>
+		<!-- FOOTER -->
+
+	</div><!-- /.page -->
+	<!-- SCRIPTS -->
+	<!-- <script src="js/libs.min.js"></script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+		integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+		crossorigin="anonymous"></script>
+	<script src="js/main.js"></script>
+</body>
+<!-- BODY -->
+
+</html>

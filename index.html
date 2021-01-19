@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<!-- HEAD -->
+
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- META -->
+
+    <!-- TITLE -->
+    <title>VINsearcher</title>
+    <!-- TITLE -->
+
+    <!-- STYLES -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.min.css">
+    <!-- STYLES -->
+</head>
+<!-- HEAD -->
+
+<!-- BODY -->
+
+<body>
+    <div class="page">
+        <!-- HEADER -->
+        <header class="header" id="header">
+            <div class="container">
+                <div class="header__inner">
+                    <input type="text" placeholder="Поиск" class="header__search">
+                    <div class="header__wrap">
+                        <a class="header__logo" href="#">
+                            Vin
+                        </a>
+                    </div>
+                    <nav class="header__functions">
+                        <div class="nav__item">
+                            <a href="#">
+                                <img class="nav__icon" src="img/account.png" alt="">
+                                <p class="nav__text">Аккаунт</p>
+                            </a>
+                        </div>
+                        <div class="nav__item">
+                            <a href="#">
+                                <img class="nav__icon nav__icon_basket" src="img/basket.png" alt="">
+                                <p class="nav__text">Корзина</p>
+                            </a>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!-- HEADER -->
+
+        <!-- MAIN -->
+        <main class="content">
+
+
+            <div class="settings">
+                <div class="container">
+                    <div class="settings__inner">
+                        <div class="parameters">
+                            <h2 class="settings__title title">Параметры</h2>
+                            <ul class="cars list">
+                                <p class="cars__caption list__caption">Автомобиль</p>
+                                <li class="cars__item list__item">
+                                    <div class="cars__wrap list__wrap">
+                                        <img class="list__arrow list__arrow_cars" src="img/next.png" alt="">
+                                        <p class="list__choose_cars list__choose">Выбрать</p>
+                                        <a href="#" class="cars__link list__link">
+                                            Acura
+                                        </a>
+                                        <a href="#" class="cars__link list__link">
+                                            Audi
+                                        </a>
+                                        <a href="#" class="cars__link list__link">
+                                            Acura
+                                        </a>
+                                    </div>
+                                    <ul class="model list">
+                                        <p class="model__caption list__caption">Модель</p>
+                                        <li class="model__item list__item">
+                                            <div class="model__wrap list__wrap">
+                                                <img class="list__arrow list__arrow_model" src="img/next.png" alt="">
+                                                <p class="list__choose_model list__choose">Выбрать</p>
+                                                <a href="#" class="model__link list__link" id="listLinkModel">
+                                                    Hero I
+                                                </a>
+                                            </div>
+                                            <ul class="modif list">
+                                                <p class="modif__caption list__caption">Модификация</p>
+                                                <li class="modif__item list__item">
+                                                    <div class="modif__wrap list__wrap">
+                                                        <img class="list__arrow list__arrow_modif" src="img/next.png"
+                                                            alt="">
+                                                        <p class="list__choose_modif list__choose">Выбрать</p>
+                                                        <a class="modif__link list__link">
+                                                            ZXS1
+                                                        </a>
+                                                    </div>
+                                                    <ul class="year list">
+                                                        <p class="year__caption list__caption">Год выпуска</p>
+                                                        <li class="year__item list__item">
+                                                            <div class="year__wrap list__wrap">
+                                                                <img class="list__arrow list__arrow_year"
+                                                                    src="img/next.png" alt="">
+                                                                <p class="list__choose_year list__choose">Выбрать</p>
+                                                                <a class="year__link list__link">
+                                                                    1996
+                                                                </a>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <div class="details">
+                                <img class="details__arrow" src="img/next.png" alt="">
+                                <h2 class="details__title title">Все детали</h2>
+                                <div class="brands">
+                                    <div class="brands__group">
+                                        <input class="brands__check" type="checkbox" id="rem">
+                                        <label for="rem" class="brands__name">Ремкомплект</label>
+                                    </div>
+                                    <div class="brands__group">
+                                        <input class="brands__check" type="checkbox" id="rem">
+                                        <label for="rem" class="brands__name">Ремкомплект</label>
+                                    </div>
+                                    <div class="brands__group">
+                                        <input class="brands__check" type="checkbox" id="rem">
+                                        <label for="rem" class="brands__name">Ремкомплект</label>
+                                    </div>
+                                    <div class="brands__group">
+                                        <input class="brands__check" type="checkbox" id="rem">
+                                        <label for="rem" class="brands__name">Ремкомплект</label>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="products">
+                            <h2 class="settings__title title">Каталог</h2>
+                            <div class="products__inner">
+                                <div class="products__item">
+                                    <img class="products__image" src="img/detail.png" alt="">
+                                    <div class="products__offer">
+                                        <p class="products__name">Ремкомплект ГРМ, SKF, VKMA02179</p>
+                                        <p class="products__articul">
+                                            VKMA02179
+                                        </p>
+                                        <button class="btn products__btn">Добавить</button>
+                                    </div>
+                                </div>
+                                <div class="products__item">
+                                    <img class="products__image" src="img/detail.png" alt="">
+                                    <div class="products__offer">
+                                        <p class="products__name">Ремкомплект ГРМ, SKF, VKMA02179</p>
+                                        <p class="products__articul">
+                                            VKMA02179
+                                        </p>
+                                        <button class="btn products__btn">Добавить</button>
+                                    </div>
+                                </div>
+                                <div class="products__item">
+                                    <img class="products__image" src="img/detail.png" alt="">
+                                    <div class="products__offer">
+                                        <p class="products__name">Ремкомплект ГРМ, SKF, VKMA02179</p>
+                                        <p class="products__articul">
+                                            VKMA02179
+                                        </p>
+                                        <button class="btn products__btn">Добавить</button>
+                                    </div>
+                                </div>
+                                <div class="products__item">
+                                    <img class="products__image" src="img/detail.png" alt="">
+                                    <div class="products__offer">
+                                        <p class="products__name">Ремкомплект ГРМ, SKF, VKMA02179</p>
+                                        <p class="products__articul">
+                                            VKMA02179
+                                        </p>
+                                        <button class="btn products__btn">Добавить</button>
+                                    </div>
+                                </div>
+                                <div class="products__item">
+                                    <img class="products__image" src="img/detail.png" alt="">
+                                    <div class="products__offer">
+                                        <p class="products__name">Ремкомплект ГРМ, SKF, VKMA02179</p>
+                                        <p class="products__articul">
+                                            VKMA02179
+                                        </p>
+                                        <button class="btn products__btn">Добавить</button>
+                                    </div>
+                                </div>
+                                <div class="products__item">
+                                    <img class="products__image" src="img/detail.png" alt="">
+                                    <div class="products__offer">
+                                        <p class="products__name">Ремкомплект ГРМ, SKF, VKMA02179</p>
+                                        <p class="products__articul">
+                                            VKMA02179
+                                        </p>
+                                        <button class="btn products__btn">Добавить</button>
+                                    </div>
+                                </div>
+                                <div class="products__item">
+                                    <img class="products__image" src="img/detail.png" alt="">
+                                    <div class="products__offer">
+                                        <p class="products__name">Ремкомплект ГРМ, SKF, VKMA02179</p>
+                                        <p class="products__articul">
+                                            VKMA02179
+                                        </p>
+                                        <button class="btn products__btn">Добавить</button>
+                                    </div>
+                                </div>
+                                <div class="products__item">
+                                    <img class="products__image" src="img/detail.png" alt="">
+                                    <div class="products__offer">
+                                        <p class="products__name">Ремкомплект ГРМ, SKF, VKMA02179</p>
+                                        <p class="products__articul">
+                                            VKMA02179
+                                        </p>
+                                        <button class="btn products__btn">Добавить</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- MAIN -->
+
+        <!-- FOOTER -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__iner">
+                    <div class="footer__caption">
+                        Здесь вы можете подобрать детали для своего авто
+                    </div>
+                </div><!-- /.footer__iner -->
+            </div><!-- /.container -->
+        </footer>
+        <!-- FOOTER -->
+
+    </div><!-- /.page -->
+    <!-- SCRIPTS -->
+    <!-- <script src="js/libs.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+</body>
+<!-- BODY -->
+
+</html>
